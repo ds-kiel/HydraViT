@@ -6,14 +6,14 @@ This repository contains the official code for reproducing the results presented
 The architecture of ViTs, especially the Multi-head Attention (MHA) mechanism, imposes significant computational and memory demands, making it challenging to deploy them on resource-constrained devices, such as mobile phones. To address this challenge, multiple models of varying sizes are typically used, but this introduces overhead in training and storage. We introduce HydraViT, a novel approach that leverages the stacking of attention heads to create a scalable Vision Transformer capable of adapting to different hardware environments.
 
 #### Architecture & Training
-<p style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+<p align="center">
     <img src="pics/HydraViT.jpg" width="35%">
     <img src="pics/Training.jpg" width="35%">
 </p>
 
 #### Results
 
-<p style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+<p align="center">
     <img src="pics/GMACs.jpg" width="48%">
     <img src="pics/Throughput.jpg" width="48%">
 </p>
