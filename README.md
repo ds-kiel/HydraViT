@@ -68,7 +68,10 @@ python3 validate_memory.py <path/to/imagenet/val> --model hydravit_dyn_patch16_2
 @InProceedings{haberer2024hydravit,
     author    = {Haberer, Janek and Hojjat, Ali and Landsiedel, Olaf},
     title     = {HydraViT: Stacking Heads for a Scalable ViT},
-    booktitle = {The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+    booktitle = {Advances in Neural Information Processing Systems},
+    volume    = {37},
+    pages     = {40254--40277},
+    publisher = {Curran Associates, Inc.},
     month     = {December},
     year      = {2024},
     url       = {https://openreview.net/forum?id=kk0Eaunc58}
